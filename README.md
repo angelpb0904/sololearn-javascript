@@ -184,3 +184,33 @@ function mathCalc (height, weight) {
   this.sampleCalc = calculate;
 }
 ```
+## Modulo #6 Objetos Centrales,
+
+### Dada la matriz a continuación, complete la expresión para recibir una alerta con "manzana".
+```
+var fruit = new Array ("pera", "naranja", "manzana", "pomelo");
+
+alerta (frutas[2]);
+```
+
+### ¿Cuál es el resultado de la siguiente expresión? alerta (Math.sqrt (36));
+
+- 6
+
+### Complete los espacios en blanco para mostrar los minutos actuales:
+```
+var date = new Date();
+
+alert(date.getMinutes());
+```
+### ¿Cuál es el resultado de este código?
+``` 
+var arr = new Array("a", "b", "c"); 
+alert(arr[1]);
+```
+- b
+
+### Arrastre y suelte las opciones siguientes para recibir una alerta con el valor de la constante PI.
+```
+alert(Math.PI);
+```
