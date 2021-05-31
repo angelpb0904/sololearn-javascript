@@ -262,5 +262,75 @@ function msg() {
 
 </div>
 ```
+## Modulo #8 ECMAScript 6.
 
+### ¿Cuál de las siguientes no es una de las nuevas características de ES6?
+- Hoisting
 
+### Complete los espacios en blanco para declarar un número constante y una función de flecha calc.
+```
+const num = 5;
+const calc = (x, y, z = num) =>
+ {
+  return x + y + z;
+}
+```
+### Complete los espacios en blanco para que la variable arr3 tenga el siguiente aspecto: [1, 2, 3, 4, 5, 6, 7, 8].
+```
+const arr1 = [1, 2, 3];
+
+const arr2 = [5, 6, 7, 8];
+
+let arr3 = [...arr1, 4, ...arr2];
+```
+### ¿Cuál es la salida del siguiente código? 
+```
+const arr1 = [1, 2, 3, 4, 5];
+const arr2 = [...arr1, 6];
+const func = (...rest) => {
+  console.log(rest.length);
+}
+func(...arr1);
+func(...arr2);
+```
+- 5 6
+
+### ¿Cuál es el resultado de este código?
+```
+const square = num => num * num;
+console.log(square(6) + 6);
+```
+- 42
+
+### Complete los espacios en blanco para copiar el objeto de usuario al objeto newUser desestructurando las propiedades de nombre y edad. Pase el valor 9999 para la propiedad id.
+```
+const user = {
+
+  name: 'David',
+
+  age: 28,
+
+  id: 1234
+
+};
+
+let newUser = Object.assign({},
+
+  {name, age} = user,
+
+  {id: 9999});
+
+console.log(newUser);
+```
+### Complete los espacios en blanco para obtener el siguiente resultado: cero = 0 uno = 1
+```
+let myMap = new Map();
+
+myMap.set('zero', 0);
+
+myMap.set('one', 1);
+
+for(let [key, value] of myMap) {
+
+  console.log(`${key} = ${value}`);
+}
