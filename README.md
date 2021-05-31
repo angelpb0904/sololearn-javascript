@@ -159,3 +159,28 @@ function test(a, b) {
 alert(test(5, 15));
 ```
 - 3
+
+## Modulo #5 Objetos.
+
+### Las propiedades de un objeto son similares a las variables; los métodos son similares a:
+
+- funciones.
+
+### ¿Cuál es el resultado de la siguiente expresión?
+```
+var myString = "abcdef";
+document.write(myString.length);
+```
+- 6
+
+### Complete la expresión para crear un constructor de objetos, teniendo en cuenta que "altura" y "peso" son propiedades y "calcular" es un método para el objeto dado:
+```
+function mathCalc (height, weight) {
+
+  this.height = height;
+
+  this.weight = weight;
+
+  this.sampleCalc = calculate;
+}
+```
