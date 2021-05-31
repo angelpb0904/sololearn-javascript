@@ -1,6 +1,6 @@
 # RESPUESTAS DE LOS QUIZ DEL CURSO DE JAVASCRIPT EN SOLOLEARN.
 
-## Modulo #1
+## Modulo #1 Descripcion General.
 
 ### Complete los espacios en blanco para generar "JS is cool!" a la consola:
 
@@ -22,7 +22,7 @@ nombre = "James";
 console.log(nombre);
 </script>
 ```
-## Modulo #2
+## Modulo #2 Conceptos Basicos.
 
 ### ¿Cuáles de estos nombres son aceptables para las variables de JavaScript?
 
@@ -39,7 +39,7 @@ console.log(nombre);
 
 - Falso
 
-## Modulo #3
+## Modulo #3 Condiciones y Bucles.
 
 ### ¿Cuál es el resultado de este código? var x = 0; mientras (x <6) {x ++; } document.write (x);
 
@@ -95,3 +95,67 @@ do
 while
  (i < 10);
  ```
+
+## Modulo #4 Funciones.
+
+### ¿El siguiente código dará como resultado qué valor?
+
+```
+function test(number)
+{
+   while(number < 5) {
+      number++;
+   }
+   return number;
+}
+alert(test(2));
+
+```
+- 5
+
+### ¿Cuál es el resultado de la siguiente expresión?
+```
+function multNmbrs(a, b) {
+    var c = a*b;
+}
+multNmbrs(2, 6);
+```
+- Nada
+
+### Complete los nombres correspondientes para los cuadros de diálogo integrados:
+
+- prompt es para obtener información del usuario;
+
+- alert es para mostrar un mensaje en un cuadro;
+
+### Complete los espacios en blanco para calcular el máximo de los parámetros:
+```
+function max(a, b) {
+ 
+if(a >= b)
+
+    return a;\
+
+else
+
+    return b;
+
+}
+```
+
+### ¿Cuál es la sintaxis correcta para hacer referencia a un script externo llamado "script.js"?
+
+```<script src = "script.js">```
+
+### ¿Qué alerta se mostrará en la pantalla?
+```
+function test(a, b) {
+  if(a > b) {
+    return a*b; 
+} else {
+     return b / a; 
+    }
+}
+alert(test(5, 15));
+```
+- 3
