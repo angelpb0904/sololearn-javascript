@@ -84,12 +84,8 @@ break
 ### Complete las palabras clave correctas para componer un bucle:
 ```
 do
- {
-
-   document.write(i);
-
+{ document.write(i);
     i++;
-
 }
 
 while
@@ -214,3 +210,57 @@ alert(arr[1]);
 ```
 alert(Math.PI);
 ```
+## Modulo #7 DOM y Eventos.
+
+### Complete los espacios en blanco para cambiar el contenido de todas las etiquetas de párrafo de la página a "SoloLearn".
+```
+var arr = 
+document.getElementsByTagName("p");
+
+for(var x=0; x<arr.length; x++) 
+{
+   arr[
+x
+].innerHTML="SoloLearn";
+
+}
+```
+### ¿Cuál es el resultado de este código?
+```
+<div id="test">
+<p>some text</p>
+</div>
+<script>
+var el=document.getElementById("test");
+alert(el.hasChildNodes());
+</script>
+```
+- true
+
+### Arrastre y suelte las opciones siguientes para cambiar el color del párrafo con id = "p2" a rojo.
+```
+<script>
+var d = document.getElementById("p2");
+d.style.color= "red";
+</script>
+```
+### ¿Puede manejar varios eventos en el mismo elemento HTML?
+- Si
+
+### Complete los espacios en blanco para alertar un mensaje cuando se hace clic en el botón.
+```
+<button onclick="msg()">Click me</button>
+<script>
+function msg() {
+    alert("Hi!");
+}
+</script>
+```
+### Muestre una alerta cuando el puntero del mouse esté sobre la etiqueta div:
+```
+<div onmouseover = "alert('Hi!');">
+
+</div>
+```
+
+
